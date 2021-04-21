@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: lightgrey;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9rem;
+  }
+  header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 2.2rem;
+  }
+  
+  figure {
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    margin-top: 5vh;
+    padding: 0.8rem;
+  }
+  main {
+    width: 100%;
+  }
+  a:hover {
+    transition: color .20s ease-in-out;
+    color: red;
+  }
+  #contact {
+    margin-top: 5vh;
+  }
+  
+  @media (min-width: 768px) {
+    body  {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    figure {
+      max-width: 40%;
+      float: left;
+      margin-left: 30px;
+    }
+    div {
+      float: left;
+      width: 40%;
+      margin-left: 20px;
+    }
+    
+  }
+  
+  
+  
+  
+  
+  
+  
